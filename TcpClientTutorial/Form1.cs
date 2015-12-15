@@ -26,7 +26,7 @@ namespace TcpClientTutorial
         {
 
         }
-
+        // some comment
         private void bConnect_Click(object sender, EventArgs e)
         {
             Thread mThread = new Thread(new ThreadStart(ConnectAsClient));
